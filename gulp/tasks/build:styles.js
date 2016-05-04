@@ -1,5 +1,6 @@
 module.exports = function(gulp, plugins, config) {
 	return function() {
+		console.log('---> build:styles');
 		/**
 		 * gulp-notify error handler
 		 */

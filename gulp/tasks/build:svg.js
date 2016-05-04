@@ -1,6 +1,6 @@
 module.exports = function(gulp, plugins, config) {
 	return function() {
-		console.log('build:svg');
+		console.log('---> build:svg');
 		return gulp.src(config.svg.src)
 		.pipe(plugins.plumber())
     .pipe(plugins.svgSprite(config.svg.options))

@@ -1,6 +1,6 @@
 module.exports = function(gulp, plugins, config) {
 	return function() {
-		console.log('build:images');
+		console.log('---> build:images');
 		return gulp.src(config.images.src)
     .pipe(plugins.imagemin({
       progressive: true,

@@ -1,6 +1,6 @@
 module.exports = function(gulp, plugins, config) {
 	return function() {
-		console.log('browsersync');
+		console.log('---> browsersync');
 		plugins.browsersync.init(config.browsersync);
 	};
 };
