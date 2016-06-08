@@ -3,7 +3,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 
 title:
 exclude: ["_assets"]
-keep_files: ["assets"]
+#keep_files: ["assets"]
 
 source: ./app
 destination: ./dist
