@@ -1,2 +1,2 @@
 # starter-kit
-A simple startup kit for web projects.
+A simple Jekyll startup kit for web projects.
