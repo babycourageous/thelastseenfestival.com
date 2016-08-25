@@ -1,9 +1,6 @@
 url: "" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 
-title:
-exclude: ["_assets"]
-#keep_files: ["assets"]
-
-source: ./app
-destination: ./dist
+title: The Last Seen Comedy Festival
+exclude: ["_assets", "gulp", ".gitignore", "gulpfile.js", "package.json", "README.md"]
+keep_files: ["assets"]

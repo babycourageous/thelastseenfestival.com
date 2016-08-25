@@ -15,6 +15,8 @@ module.exports = function(gulp, plugins, config) {
 		  // add transformation tasks to the pipeline here
 		  .pipe(plugins.uglify())
 		  //.pipe(plugins(sourcemaps.write('./')))
-		  .pipe(gulp.dest('./dist/assets'));
+			.pipe(gulp.dest('./assets'))
+			.pipe(gulp.dest('./_site/assets'));
+
 	}
 };
