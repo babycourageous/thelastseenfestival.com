@@ -1,0 +1,10 @@
+- name: about
+  url: '#about'
+- name: shows
+  url: '#shows'
+- name: performers
+  url: '#performers'
+- name: workshops
+  url: '#workshops'
+- name: location
+  url: '#location'
