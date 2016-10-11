@@ -50,7 +50,8 @@ config.styles = {
     config.assets+'styles',
     config.nodedir+'/normalize.css',
     config.nodedir+'/bourbon/app/assets/stylesheets',
-    config.nodedir +'/bourbon-neat/app/assets/stylesheets'
+    config.nodedir + '/typi/scss',
+    config.nodedir + '/modularscale-sass/stylesheets'
   ],
 
 	autoprefixer: {
