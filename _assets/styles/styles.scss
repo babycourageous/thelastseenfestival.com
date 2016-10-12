@@ -3,7 +3,8 @@
  */
 @import 'normalize';
 @import 'bourbon';
-@import 'neat';
+@import 'typi';
+@import 'modular-scale';
 
 /*
  * 1- UTILS
@@ -15,6 +16,8 @@
  /*
  * 3- BASE
  */
+ @import "base/base";
+ @import "base/typi-stuff";
 
 /*
  * 4- LAYOUT
