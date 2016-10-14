@@ -1,0 +1,18 @@
+.about {
+  @extend %section-padding;
+  @extend %container;
+  text-align: center;
+
+  &__blurb {
+
+  @include respond-to(medium) {
+      lost-column: 6/8;
+      lost-move: 1/8;
+  }
+  @include respond-to(xl) {
+    lost-column: 4/8;
+    lost-move: 2/8;
+  }
+  }
+
+}
