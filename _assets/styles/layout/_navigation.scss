@@ -18,7 +18,6 @@ $navigation__height: vr(2);
   }
 
   &__container {
-    @extend %section-padding;
     @extend %container;
   }
 
