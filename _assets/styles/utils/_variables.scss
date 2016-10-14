@@ -37,45 +37,29 @@ $typi: (
   large: 20px,
   xl: 20px
 );
+// If you use breakpoint
+$typi-breakpoint: breakpoint;
 
-// Typography
-$base-font-family: 'Quattrocento', serif;
-$heading-font-family: 'Alegreya', serif;
 
-// Font Sizes
-$base-font-size: 1em;
-// Line height
-$base-line-height: 1.5;
-// baseline rhythm
-$vr: $base-font-size * $base-line-height;
 
 // Other Sizes
-$base-border-radius: 3px;
-$base-spacing: $base-line-height * 1em;
-$small-spacing: $base-spacing / 2;
-$base-z-index: 0;
+//$base-border-radius: 3px;
+//$base-spacing: $base-line-height * 1em;
+//$small-spacing: $base-spacing / 2;
+//$base-z-index: 0;
 
-// Colors
-$color__primary: #ffc107;
-$color__gray--light: #222;
-$color__gray: #444;
-$color__gray--dark: #efefef;
-
-// Font Colors
-$base-font-color: $color__gray;
-$action-color: $color__primary;
 
 // Border
-$base-border-color: $color__primary;
-$base-border: 1px solid $base-border-color;
+//$base-border-color: $color__primary;
+//$base-border: 1px solid $base-border-color;
 
 // Background Colors
-$base-background-color: #fff;
-$secondary-background-color: tint($base-border-color, 75%);
+//$base-background-color: #fff;
+//$secondary-background-color: tint($base-border-color, 75%);
 
 // Forms
-$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
-$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
+//$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
+//$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
 
 // Animations
 $transition__duration--base: 150ms;
@@ -83,4 +67,3 @@ $transition__timing--base: ease;
 
 // General
 $site__min-width: em(1024);
-$navigation__height: 50px;
