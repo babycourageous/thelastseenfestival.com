@@ -1,5 +1,4 @@
 body {
-  padding: 0 5%;
 }
 
 img {
@@ -14,11 +13,13 @@ img {
 ul {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 li {
   margin: 0;
   padding: 0;
 }
-nav ul li a {
-  line-height: vr(1);
+button  {
+  border: none;
+  padding: 0;
 }

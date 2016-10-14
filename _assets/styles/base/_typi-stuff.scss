@@ -1,9 +1,12 @@
+html {
+  font-family: $font__family--base-serif;
+}
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: $heading-font-family;
+  font-family: $font__family--heading-serif;
 }
 
 $h1-font-map: (
@@ -31,12 +34,11 @@ h2{
 }
 h3{
   @include typi($h3-font-map);
-  font-family: $base-font-family;
+  font-family: $font__family--base-serif;
 }
 h4{
   @include typi($h4-font-map);
 }
 p {
-  font-family: $base-font-family;
   margin-bottom: vr(1);
 }
