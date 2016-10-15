@@ -5,12 +5,15 @@ title: The Last Seen Comedy Festival
 exclude: ["_assets", "gulp", ".gitignore", "gulpfile.js", "package.json", "README.md"]
 keep_files: ["assets"]
 
+future: true
+
 collections:
   shows:
     output: true
 
 defaults:
-  - scope:
+  -
+    scope:
       path: ""
       type: shows
     values:
