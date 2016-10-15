@@ -1,9 +1,9 @@
-<section>
-  <h2>Shows</h2>
-  <img src="https://unsplash.it/200/300/?random" alt="">
-  <img src="https://unsplash.it/200/300/?random" alt="">
-  <img src="https://unsplash.it/200/300/?random" alt="">
-  <img src="https://unsplash.it/200/300/?random" alt="">
-  <img src="https://unsplash.it/200/300/?random" alt="">
-  <img src="https://unsplash.it/200/300/?random" alt="">
+<section id="shows" class="shows">
+  <h2 class="shows__heading">Shows</h2>
+  <div class="shows__container">
+    {% for show in site.shows %}
+    <img alt="" src="{{site.baseurl}}{{show.image_path}}{{show.image}}">
+    {{show.title}}
+    {% endfor %}
+  </div>
 </section>
