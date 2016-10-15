@@ -114,8 +114,8 @@ gulp.task('serve', ['build:dev'], function() {
 	gulp.watch('_assets/images/**/*.+(jpg|png|jpeg|gif)', ['build:images']);
 	// WATCH svg --> build:svg
 	gulp.watch('_assets/svg/**/*.svg', ['build:svg']);
-	// WATCH _posts --> build:jekyll:serve
-	gulp.watch('_posts/**/*.+(md|markdown|MD)', ['build:jekyll:serve']);
+	// WATCH _shows --> build:jekyll:serve
+	gulp.watch('_shows/**/*.+(md|markdown|MD)', ['build:jekyll:serve']);
 	// WATCH html --> build:jekyll:serve
 	// -- **/*.html, !_site/**/*/*.*
 	gulp.watch(['**/*.html', '!_site/**/*.*'], ['build:jekyll:serve']);
