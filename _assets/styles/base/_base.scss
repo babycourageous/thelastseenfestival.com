@@ -1,3 +1,4 @@
+* { box-sizing: border-box; }
 body {
 }
 
@@ -21,5 +22,9 @@ li {
 }
 button  {
   border: none;
+  padding: 0;
+}
+dl, dt, dd {
+  margin: 0;
   padding: 0;
 }

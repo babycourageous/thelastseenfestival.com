@@ -5,14 +5,18 @@
 
   &__blurb {
 
-  @include respond-to(medium) {
-      lost-column: 6/8;
-      lost-move: 1/8;
-  }
-  @include respond-to(xl) {
-    lost-column: 4/8;
-    lost-move: 2/8;
-  }
+    @include respond-to(medium) {
+        lost-column: 6/8;
+        lost-move: 1/8;
+    }
+    @include respond-to(xl) {
+      lost-column: 4/8;
+      lost-move: 2/8;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
   }
 
 }
