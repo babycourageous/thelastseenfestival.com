@@ -4,3 +4,18 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 title: The Last Seen Comedy Festival
 exclude: ["_assets", "gulp", ".gitignore", "gulpfile.js", "package.json", "README.md"]
 keep_files: ["assets"]
+
+future: true
+
+collections:
+  shows:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: shows
+    values:
+      layout: show
+      image_path: "assets/images/shows/"
