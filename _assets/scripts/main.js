@@ -5,3 +5,4 @@
  * require('./FILENAME.js');
  */
 require('./_navigation.js');
+require('./_shows.js');
