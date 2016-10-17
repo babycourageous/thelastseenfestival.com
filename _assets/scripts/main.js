@@ -6,3 +6,4 @@
  */
 require('./_navigation.js');
 require('./_shows.js');
+require('./_magnific.js');

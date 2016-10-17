@@ -6,6 +6,7 @@
 @import 'breakpoint';
 @import 'typi';
 @import 'modular-scale';
+@import "main";
 
 /*
  * 1- UTILS
@@ -29,7 +30,8 @@
 /*
  * 5- MODULES
  */
-@import "modules/hero";
+ @import "modules/hero";
+ @import "modules/performer-popup";
 
  /*
  * 6- PAGES
@@ -37,3 +39,4 @@
 @import "pages/about";
 @import "pages/schedule";
 @import "pages/shows";
+@import "pages/workshops";

@@ -1,0 +1,15 @@
+.workshops {
+
+  @extend %section-padding;
+  @extend %container;
+
+  &__workshop {
+    @include respond-to(medium) {
+      lost-column: 1/2;
+    }
+  }
+
+  &__heading {
+    @extend %section__heading;
+  }
+}

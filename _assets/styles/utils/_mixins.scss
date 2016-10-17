@@ -23,7 +23,5 @@
   margin-bottom: vr(.5);
 }
 %container {
-  lost-center: $site__min-width;
-  padding-left: em(10);
-  padding-right: em(10);
+  lost-center: $site__min-width em(10);
 }
