@@ -1,15 +1,19 @@
 url: "http://www.thelastseenfestival.com" # the base hostname & protocol for your site
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 
 title: The Last Seen Comedy Festival
-exclude: ["_assets", "gulp", ".gitignore", "gulpfile.js", "package.json", "README.md"]
+exclude: ["_assets", "gulp", ".gitignore", "gulpfile.js", "package.json", "node_modules", "README.md"]
 keep_files: ["assets"]
 
 future: true
+timezone: America/New_York
 
 collections:
   shows:
     output: true
+  performers:
+    output: true
+    permalink: /:path/
   workshops:
     output: false
 
@@ -21,3 +25,10 @@ defaults:
     values:
       layout: show
       image_path: "assets/images/shows/"
+  -
+    scope:
+      path: ""
+      type: performers
+    values:
+      layout: performer-detail
+      image_path: "assets/images/performers/"
