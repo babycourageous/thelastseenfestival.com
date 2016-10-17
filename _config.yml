@@ -10,6 +10,8 @@ future: true
 collections:
   shows:
     output: true
+  workshops:
+    output: false
 
 defaults:
   -
