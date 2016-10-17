@@ -2,9 +2,10 @@
 <html lang="en">
 {% include head.html %}
 <body>
+  {% include header.html %}
 
   {{content}}
 
-  <script src="assets/scripts.min.js"></script>
+  <script src="{{site.baseurl}}assets/scripts.min.js"></script>
 </body>
 </html>
