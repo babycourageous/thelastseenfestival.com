@@ -1,0 +1,47 @@
+.mfp-bg {
+  background: $color__primary;
+}
+.mfp-close {
+  @include size(30px);
+  line-height: 30px;
+}
+
+.holder {
+  @extend %section-padding;
+  @extend %container;
+
+  &__image {
+    @include respond-to(small) {
+      lost-column: 2/4;
+      lost-move: 1/4;
+    }
+    @include respond-to(large) {
+      lost-column: 1/3;
+      lost-move: 0/3;
+    }
+
+  }
+  &__content {
+    @include respond-to(small) {
+      lost-column: 4/6;
+      lost-move: 1/6;
+      text-align: center;
+    }
+    @include respond-to(large) {
+      lost-column: 2/3;
+      lost-move: 0/3;
+      text-align: left;
+    }
+  }
+}
+
+.performer__detail {
+  background: white;
+  padding: vr(1);
+  position: relative;
+
+  @include respond-to(small) {
+    lost-column: 6/8;
+    lost-move: 1/8;
+  }
+}
