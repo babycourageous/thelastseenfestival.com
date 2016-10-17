@@ -1,12 +1,23 @@
 <section id="workshops" class="workshops">
   <h2 class="workshops__heading">Workshops</h2>
   <div class="workshops__container">
-    {% for workshop in site.workshops %}
+    {% assign sorted = (site.workshops | sort: 'timeofday') %}
+    {% for workshop in sorted %}
     <div class="workshops__workshop workshop">
       <h3 class="workshop__title">{{workshop.title}}</h3>
-      <time datetime='2016-11-19'>{{workshop.date}}</time>
-      <time datetime='11:00'>{{workshop.time}}</time>
+      {% capture wsd %} {{workshop.date}} {{workshop.timeofday}} {% endcapture %}
+      {% assign dow = workshop.date | date: "%Y-%m-%d" %}
+      {% assign tod = workshop.timeofday %}
+      <time datetime='{{dow}}'>{{workshop.date | date: '%B %d'}}</time>
+      <time>{{tod | date: '%-I:%M %P'}}</time>
       <div class="workshop__description">{{workshop.content}}</div>
+      <p>Instructor:</p>
+      <ul>
+        {% for id in workshop.instructor %}
+          {% assign teacher = site.performers | where: "pid", id.id | first %}
+          <li><a class="performer__link" href="{{teacher.url}}">{{teacher.name}}</a></li>
+        {% endfor %}
+      </ul>
     </div>
     {% endfor %}
   </div>
