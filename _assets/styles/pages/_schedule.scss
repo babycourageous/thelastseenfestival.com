@@ -78,5 +78,15 @@
     border-radius: 5px;
     font-family: $font__family--base-sans;
     text-transform: uppercase;
+    margin-top: vr(.5);
+
+  }
+
+  &__show {
+    margin-left: em(15);
+  }
+
+  &__link {
+    color: $color__gray;
   }
 }
