@@ -65,6 +65,7 @@ $navigation__height: 50px;
 
   &__item {
     display: block;
+    font-family: $font__family--base-sans;
 
     @include respond-to(medium) {
       display: inline-block;
