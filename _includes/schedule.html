@@ -1,51 +1,25 @@
 <section id="schedule" class="schedule">
   <h2 class="schedule__heading">Schedule</h2>
   <div class="schedule__container">
+    {% assign schedule_grouped = (site.shows | group_by: 'date' | sort: 'date') %}
+    {% for group in schedule_grouped %}
     <div class="schedule__item">
       <div class="schedule__date">
-        <div class="schedule__day">Thursday</div>
-        <div class="schedule__month">November 17</div>
+        <div class="schedule__day">{{group.name | date: '%A'}}</div>
+        <div class="schedule__month">{{group.name | date: '%B %d'}}</div>
       </div>
       <div class="schedule__info">
         <dl>
-          <dt class="schedule__time">8:00pm</dt>
-          <dd class="schedule__show">Dark Side Of The Room</dd>
-          <dd class="schedule__show">Hip Hop Harold</dd>
-          <dd class="schedule__show">Superconductor</dd>
-          <dt class="schedule__time">10:00pm</dt>
-          <dd class="schedule__show">Dottie</dd>
-          <dd class="schedule__show">Sit Down Stand Up</dd>
+          {% assign items = group.items | group_by: 'time' | sort:'name' %}
+          {% for y in items %}
+          <dt class="schedule__time">{{y.name | date: '%-I:%M %P'}}</dt>
+          {% for show in y.items %}
+          <dd class="schedule__show"><a class="schedule__link" href="{{show.url}}">{{show.title}}</a></dd>
+          {% endfor %}
+          {% endfor %}
         </dl>
       </div>
     </div>
-    <div class="schedule__item">
-      <div class="schedule__date">
-        <div class="schedule__day">Friday</div>
-        <div class="schedule__month">November 17</div>
-      </div>
-      <div class="schedule__info">
-        <dl>
-          <dt class="schedule__time">8:00pm</dt>
-          <dd class="schedule__show">Taylor and Cassidy</dd>
-          <dd class="schedule__show">Folk Lordz</dd>
-          <dt class="schedule__time">10:00pm</dt>
-          <dd class="schedule__show">Rapp Battlez Dirty Zouth</dd>
-        </dl>
-      </div>
-    </div>
-    <div class="schedule__item">
-      <div class="schedule__date">
-        <div class="schedule__day">Saturday</div>
-        <div class="schedule__month">November 17</div>
-      </div>
-      <div class="schedule__info">
-        <dl>
-          <dt class="schedule__time">8:00pm</dt>
-          <dd class="schedule__show">Atlanta, I Love You</dd>
-          <dt class="schedule__time">10:00pm</dt>
-          <dd class="schedule__show">Network Notez</dd>
-        </dl>
-      </div>
-    </div>
+    {% endfor %}
   </div>
 </section>
