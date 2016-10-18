@@ -1,5 +1,6 @@
 'use strict';
 var $ = require('jquery');
+var ss = require('smooth-scroll');
 
 $(document).ready(function() {
   var toggle = $('#nav-toggle');
@@ -17,6 +18,9 @@ $(document).ready(function() {
   	});
     event.preventDefault();
 	});
+
+  /* SMOOTH SCROLL */
+  ss.init({offset:50});
 
   $(window).load(function() {
     $(window).scroll(function() {
