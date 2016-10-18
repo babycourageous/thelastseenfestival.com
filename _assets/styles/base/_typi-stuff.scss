@@ -1,12 +1,14 @@
 html {
   font-family: $font__family--base-serif;
+  color: $font__color--base;
 }
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: $font__family--heading-serif;
+  font-family: $font__family--base-sans;
+  color: $color__gray--dark;
 }
 
 $h1-font-map: (
