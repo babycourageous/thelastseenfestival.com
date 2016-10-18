@@ -18,4 +18,14 @@ $(document).ready(function() {
     event.preventDefault();
 	});
 
+  $(window).load(function() {
+    $(window).scroll(function() {
+        if ($(".header").offset().top > 50) {
+            $(".header").addClass("header--collapse")
+        } else {
+            $(".header").removeClass("header--collapse")
+        }
+    })
+});
+
 })
