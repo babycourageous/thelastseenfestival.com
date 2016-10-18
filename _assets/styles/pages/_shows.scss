@@ -1,4 +1,5 @@
 .shows {
+  @extend %section-padding;
   @extend %container;
   overflow-x: hidden;
 
