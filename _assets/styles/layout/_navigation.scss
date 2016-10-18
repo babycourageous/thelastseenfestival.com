@@ -1,13 +1,19 @@
-$navigation__height: vr(2);
+$navigation__height: vr(1.75);
 
 .header {
   width: 100%;
   min-height: $navigation__height;
-  background-color: rgba(0, 0, 0, .6);
   position: fixed;
   top: 0;
   left: 0;
-  padding: 50px 0;
+  padding: vr(1.75) 0;
+  z-index: 1000;
+  transition: background .5s ease-in-out, padding .5s ease-in-out;
+
+  &--collapse {
+    background-color: $color__primary;
+    padding: vr(.75) 0;
+  }
 }
 .nav {
 
