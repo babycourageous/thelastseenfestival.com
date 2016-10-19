@@ -11,6 +11,11 @@
     text-align: center;
   }
 
+  &__heading {
+    font-weight: 400;
+    color: white;
+  }
+
   &__button {
     padding: em(10);
     font-family: $font__family--base-sans;
