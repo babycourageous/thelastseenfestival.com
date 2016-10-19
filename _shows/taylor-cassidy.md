@@ -1,8 +1,8 @@
 ---
-title: Taylor and Cassady
+title: Taylor and Cassidy
 date: '2016-11-18'
 time: '20:00:00'
-image: atlanta-i-love-you.jpg
+image: taylor-and-cassidy.jpg
 city: atlanta
 ---
 Info Coming Soon.
