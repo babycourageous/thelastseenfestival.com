@@ -1,0 +1,67 @@
+.hero__countdown {
+  color: #fff;
+  font-family: $font__family--base-sans;
+  font-weight: 200;
+  @extend %container;
+  
+}
+.days {
+  display: inline-block;
+  width: 200px;
+
+  .count {
+    display: block;
+    font-size: ms(5);
+    line-height: vr(2);
+    text-align: left;
+  }
+  .title {
+    display: block;
+    text-align: left;
+  }
+}
+.hours {
+  display: inline-block;
+  width: 200px;
+
+  .count {
+    display: block;
+    font-size: ms(5);
+    line-height: vr(2);
+    text-align: left;
+  }
+  .title {
+    display: block;
+    text-align: left;
+  }
+}
+.minutes {
+  display: inline-block;
+  width: 200px;
+
+  .count {
+    display: block;
+    font-size: ms(5);
+    line-height: vr(2);
+    text-align: left;
+  }
+  .title {
+    display: block;
+    text-align: left;
+  }
+}
+.seconds {
+  display: inline-block;
+  width: 200px;
+
+  .count {
+    display: block;
+    font-size: ms(5);
+    line-height: vr(2);
+    text-align: left;
+  }
+  .title {
+    display: block;
+    text-align: left;
+  }
+}

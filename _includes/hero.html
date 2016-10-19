@@ -1,14 +1,10 @@
 <div id="hero" class="hero">
   <div class="hero__container">
-    <h1>The Last Seen Festival</h1>
-    <p class="hero__dates">November 17-19, 2016</p>
+    <h1>{{site.title}}</h1>
+    <p class="hero__dates">{{site.data.info.when.from | date: '%B %-d'}} - {{site.data.info.when.to | date: '%-d, %Y'}}</p>
     <div class="hero__buttons">
       <button class="hero__button">Tickets</button>
     </div>
-    <div class="hero__countdown countdown">
-      <span>4<br>weeks</span>
-      <span>2<br>days</span>
-      <span>20<br>hours</span>
-    </div>
+    <div id="hero-countdown" data-countdown="{{site.data.info.when.from | date: '%B %d, %Y 00:00:00'}}" class="hero__countdown countdown"></div>
   </div>
 </div>
