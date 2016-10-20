@@ -81,6 +81,16 @@ $navigation__height: 50px;
     text-decoration: none;
     text-transform: uppercase;
     color: $color__primary--alt;
+    transition: color .5s ease-in-out;
+
+    &:hover {
+      color: $color__primary--alt;
+    }
+
+    .header--collapse & {
+      color: white;
+    }
+
   }
 
 }
