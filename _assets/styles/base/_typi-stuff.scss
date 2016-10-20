@@ -30,6 +30,7 @@ html {
 h1{
   @include typi($h1-font-map);
   margin-bottom: vr(1);
+  color: $color__primary;
 }
 h2{
   @include typi($h2-font-map);
