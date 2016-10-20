@@ -6,7 +6,9 @@
   display: inline-block;
   text-transform: uppercase;
   position: relative;
-  font-weight: 700;
+  font-weight: 400;
   overflow: hidden;
   cursor: pointer;
+  background: $color__primary--alt;
+  color: white;
 }
