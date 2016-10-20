@@ -1,9 +1,14 @@
+html {
+  font-family: $font__family--base-serif;
+  color: $font__color--base;
+}
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: $heading-font-family;
+  font-family: $font__family--base-sans;
+  color: $color__gray--dark;
 }
 
 $h1-font-map: (
@@ -13,7 +18,7 @@ $h2-font-map: (
   null: (ms(3), vr(2)),
 );
 $h3-font-map: (
-  null: (ms(2), vr(2)),
+  null: (ms(2), vr(1.25)),
 );
 $h4-font-map: (
   null: (ms(1), vr(1)),
@@ -25,18 +30,18 @@ html {
 h1{
   @include typi($h1-font-map);
   margin-bottom: vr(1);
+  color: $color__primary;
 }
 h2{
   @include typi($h2-font-map);
 }
 h3{
   @include typi($h3-font-map);
-  font-family: $base-font-family;
+  font-family: $font__family--base-serif;
 }
 h4{
   @include typi($h4-font-map);
 }
 p {
-  font-family: $base-font-family;
   margin-bottom: vr(1);
 }

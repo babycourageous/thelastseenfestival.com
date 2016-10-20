@@ -1,0 +1,44 @@
+.workshops {
+
+  @extend %section-padding;
+  @extend %container;
+
+  &__workshop {
+    margin-bottom: vr(1.5);
+    @include respond-to(medium) {
+      lost-column: 1/2;
+    }
+  }
+
+  &__heading {
+    @extend %section__heading;
+  }
+
+}
+.workshop {
+
+  &__title {
+    color: $color__primary--alt;
+  }
+
+
+  &__time {
+    font-weight: 700;
+    color: $color__primary--alt;
+  }
+
+  &__description {
+    color: $color__gray;
+  }
+
+  &__teachers {
+    dt {
+      font-weight: 700;
+    }
+  }
+
+  &__link {
+    color: $color__primary--alt;
+  }
+
+}

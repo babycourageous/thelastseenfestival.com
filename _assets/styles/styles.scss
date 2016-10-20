@@ -3,8 +3,10 @@
  */
 @import 'normalize';
 @import 'bourbon';
+@import 'breakpoint';
 @import 'typi';
 @import 'modular-scale';
+@import "main";
 
 /*
  * 1- UTILS
@@ -17,16 +19,28 @@
  * 3- BASE
  */
  @import "base/base";
+ @import "base/buttons";
+ @import "base/icons";
  @import "base/typi-stuff";
 
 /*
  * 4- LAYOUT
  */
+@import "layout/navigation";
+@import "layout/footer";
 
 /*
  * 5- MODULES
  */
+ @import "modules/hero";
+ @import "modules/hero-countdown";
+ @import "modules/overlays";
+ @import "modules/detail";
 
  /*
  * 6- PAGES
  */
+@import "pages/about";
+@import "pages/schedule";
+@import "pages/shows";
+@import "pages/workshops";

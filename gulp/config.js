@@ -47,11 +47,13 @@ config.styles = {
   appdest: config.app + 'assets',
 
   includePaths: [
-    config.assets+'styles',
-    config.nodedir+'/normalize.css',
-    config.nodedir+'/bourbon/app/assets/stylesheets',
+    config.assets + 'styles',
+    config.nodedir + '/normalize.css',
+    config.nodedir + '/bourbon/app/assets/stylesheets',
+    config.nodedir + '/breakpoint-sass/stylesheets',
     config.nodedir + '/typi/scss',
-    config.nodedir + '/modularscale-sass/stylesheets'
+    config.nodedir + '/modularscale-sass/stylesheets',
+    config.nodedir + '/magnific-popup/src/css'
   ],
 
 	autoprefixer: {

@@ -1,0 +1,90 @@
+$button-width:              45px;    // The width of the button area
+$button-height:             35px;    // The height of the button area
+$button-pad:                10px;    // The left/right padding between button area and bars.
+$icon-bar-thickness:        2px;     // The thickness of the button bars
+$icon-bar-space:            5px;     // The spacing between button bars
+$icon-transistion-duration: 0.3s;    // The transition duration
+/*
+ *
+ * Hamburger Icon Button and Animation
+ * modified from CALL ME NICK
+ *
+ * http://callmenick.com/post/animating-css-only-hamburger-menu-icons
+ *
+ */
+.icon {
+  display: block;
+}
+/* HAMBURGER ICON NEUTRAL */
+.icon__hamburger {
+  position: absolute;
+  top: ($button-height / 2) - ($icon-bar-thickness);// / 2);
+  left: $button-pad;
+  right: $button-pad;
+  height: $icon-bar-thickness;
+  background: $color__primary;
+  border-radius: 4px;
+}
+
+.icon__hamburger::before,
+.icon__hamburger::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: $icon-bar-thickness;
+  background-color: $color__primary;;
+  content: "";
+  border-radius: 4px;
+
+}
+
+.icon__hamburger::before {
+  top: -$icon-bar-thickness - $icon-bar-space;
+}
+
+.icon__hamburger::after {
+  bottom: -$icon-bar-thickness - $icon-bar-space;
+}
+
+/* HAMBURGER ICON ANIMATED */
+.icon__hamburger--htx {
+  @include transition(background 0s 0.3s);
+}
+
+.icon__hamburger--htx::before,
+.icon__hamburger--htx::after {
+  //transition-duration: 0.3s, 0.3s;
+  //transition-delay: 0.3s, 0s;
+}
+
+.icon__hamburger--htx::before {
+  transition: top .3s .3s, transform .3s 0s;
+}
+
+.icon__hamburger--htx::after {
+  transition: bottom .3s .3s, transform .3s 0s;
+}
+
+/* active state, i.e. menu open */
+.nav__toggle.is-active .icon__hamburger--htx {
+  background: none;
+}
+
+.nav__toggle.is-active .icon__hamburger--htx::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.nav__toggle.is-active .icon__hamburger--htx::after {
+  bottom: 0;
+  transform: rotate(-45deg);
+}
+
+.nav__toggle.is-active .icon__hamburger--htx::before {
+  transition: top .3s 0s, transform .3s 0.3s;
+
+}
+.nav__toggle.is-active .icon__hamburger--htx::after {
+  transition: bottom .3s 0s, transform .3s 0.3s;
+}

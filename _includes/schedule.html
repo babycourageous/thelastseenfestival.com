@@ -1,12 +1,26 @@
-<section>
-  <h2>Schedule</h2>
-  <h3>Thursday</h3>
-  <p><span>8:00pm</span><span>Last Seen Local Showcase</span></p>
-  <p><span>10:00pm</span><span>Last Seen Solo Showcase</span></p>
-  <h3>Friday</h3>
-  <p><span>8:00pm</span><span>Folk Lordz</span></p>
-  <p><span>10:00pm</span><span>Rapp Battlez</span></p>
-  <h3>Saturday</h3>
-  <p><span>8:00pm</span><span>Atlanta, I Love You</span></p>
-  <p><span>10:00pm</span><span>Network Notez</span></p>
+<section id="schedule" class="schedule">
+  <h2 class="schedule__heading">Schedule</h2>
+  <div class="schedule__container">
+    {% assign schedule_grouped = (site.shows | group_by: 'date' | sort: 'date') %}
+    {% for group in schedule_grouped %}
+    <div class="schedule__item">
+      <div class="schedule__date">
+        <div class="schedule__day">{{group.name | date: '%A'}}</div>
+        <div class="schedule__month">{{group.name | date: '%B %d'}}</div>
+      </div>
+      <div class="schedule__info">
+        <dl>
+          {% assign items = group.items | group_by: 'time' | sort:'name' %}
+          {% for y in items %}
+          <dt class="schedule__time">{{y.name | date: '%-I:%M %P'}}</dt>
+          {% for show in y.items %}
+          {% if show.title == "Taylor and Cassidy" %}{% continue %}{% endif %}
+          <dd class="schedule__show"><a class="schedule__link" href="{{show.url}}">{{show.title}}</a></dd>
+          {% endfor %}
+          {% endfor %}
+        </dl>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
 </section>

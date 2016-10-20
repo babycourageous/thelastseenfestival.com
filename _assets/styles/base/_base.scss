@@ -1,11 +1,12 @@
+* { box-sizing: border-box; }
 body {
-  padding: 0 5%;
 }
 
 img {
   display: block;
+  max-width: 100%;
   width: 100%;
-  height: vr(10);
+  height: auto;
 }
 .location__map {
   width: 100%;
@@ -14,11 +15,13 @@ img {
 ul {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 li {
   margin: 0;
   padding: 0;
 }
-nav ul li a {
-  line-height: vr(1);
+dl, dt, dd {
+  margin: 0;
+  padding: 0;
 }

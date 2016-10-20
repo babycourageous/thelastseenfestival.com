@@ -4,3 +4,8 @@
  *
  * require('./FILENAME.js');
  */
+require('./_hero-countdown.js');
+require('./_navigation.js');
+require('./_shows.js');
+require('./_magnific.js');
+require('./_location.js');
