@@ -6,9 +6,21 @@
   line-height: 30px;
 }
 
-.holder {
+.detail {
   @extend %section-padding;
   @extend %container;
+
+  &__container {
+    background: white;
+    padding: vr(1);
+    position: relative;
+
+    @include respond-to(small) {
+      lost-column: 6/8;
+      lost-move: 1/8;
+    }
+  }
+
 
   &__image {
     @include respond-to(small) {
@@ -32,16 +44,5 @@
       lost-move: 0/3;
       text-align: left;
     }
-  }
-}
-
-.performer__detail {
-  background: white;
-  padding: vr(1);
-  position: relative;
-
-  @include respond-to(small) {
-    lost-column: 6/8;
-    lost-move: 1/8;
   }
 }
