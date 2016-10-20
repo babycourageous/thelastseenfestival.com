@@ -1,6 +1,6 @@
 ---
 pid: bgor
-name: Ben Gorodetsky
+title: Ben Gorodetsky
 image: ben-gorodetsky.jpg
 ---
 Ben Gorodetsky is an improviser, theatre artist and Associate Artistic Director of Rapid Fire Theatre. Ben’s been improvising since 2004 and in that time has performed and taught improv in Austria, Slovenia, NYC, LA, Austin, Detroit, Toronto, Vancouver, Montreal and the French island of Reunion (near Madagascar!). Along with Todd Houseman, Ben is co-creator of the award winning, multi-cultural improv show Folk Lordz, which fuses the unlikely combination of Cree storytelling, Chekhovian character drama, and spontaneous comedy.
