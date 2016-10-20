@@ -1,6 +1,6 @@
 ---
 pid: eros
-name: Evany Rosen
+title: Evany Rosen
 image: evany-rosen.jpg
 ---
 Bio Coming Soon
