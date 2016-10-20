@@ -2,6 +2,8 @@
   <h2 class="shows__heading">Shows</h2>
   <div class="shows__container">
     {% for show in site.shows %}
+    {% if show.title == "Taylor and Cassidy" %}{% continue %}{% endif %}
+
     <div class="show">
       <img class="show__image" alt="" src="{{site.baseurl}}{{show.image_path}}{{show.image}}">
       <div class="show__info">

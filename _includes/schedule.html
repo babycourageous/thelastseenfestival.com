@@ -14,6 +14,7 @@
           {% for y in items %}
           <dt class="schedule__time">{{y.name | date: '%-I:%M %P'}}</dt>
           {% for show in y.items %}
+          {% if show.title == "Taylor and Cassidy" %}{% continue %}{% endif %}
           <dd class="schedule__show"><a class="schedule__link" href="{{show.url}}">{{show.title}}</a></dd>
           {% endfor %}
           {% endfor %}
