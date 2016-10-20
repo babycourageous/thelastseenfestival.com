@@ -14,7 +14,7 @@
         <dt>Instructor:</dt>
         {% for id in workshop.instructor %}
         {% assign teacher = site.performers | where: "pid", id.id | first %}
-        <dd><a class="workshop__link" href="{{teacher.url}}">{{teacher.name}}</a></dd>
+        <dd><a class="workshop__link" href="{{teacher.url}}">{{teacher.title}}</a></dd>
         {% endfor %}
       </dl>
     </div>
