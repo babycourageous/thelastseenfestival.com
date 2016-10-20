@@ -23,12 +23,12 @@ defaults:
       path: ""
       type: shows
     values:
-      layout: show
+      layout: detail
       image_path: "assets/images/shows/"
   -
     scope:
       path: ""
       type: performers
     values:
-      layout: performer-detail
+      layout: detail
       image_path: "assets/images/performers/"
