@@ -1,4 +1,4 @@
-url: "http://www.thelastseenfestival.com" # the base hostname & protocol for your site
+url: "http://thelastseenfestival.com" # the base hostname & protocol for your site
 baseurl: "/" # the subpath of your site, e.g. /blog/
 
 title: The Last Seen Comedy Festival
