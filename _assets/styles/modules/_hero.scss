@@ -17,7 +17,17 @@
 
   &__heading {
     font-weight: 400;
-    color: white;
+    text-indent: -9999px;
+    background: url('/assets/images/ls16title.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: calc(589px * .65);
+    height: calc(121px * .65);
+    margin: 0 auto;
+  }
+
+  &__dates {
+    color: $color__primary--alt;
   }
 
   &__button {
