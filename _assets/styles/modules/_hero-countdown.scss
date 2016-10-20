@@ -1,67 +1,112 @@
 .hero__countdown {
+  position: absolute;
+  bottom: 0;
   color: #fff;
   font-family: $font__family--base-sans;
   font-weight: 200;
   @extend %container;
-  
+
 }
 .days {
   display: inline-block;
-  width: 200px;
+  lost-column: 2/10;
+
+  @include respond-to(small) {
+    lost-column: 3/12;
+  }
 
   .count {
     display: block;
-    font-size: ms(5);
-    line-height: vr(2);
+    font-size: ms(1);
+    line-height: vr(.5);
     text-align: left;
+    color: $color__primary--alt;
   }
   .title {
     display: block;
     text-align: left;
+    color: $color__primary;
+    font-size: ms(-1);
   }
 }
 .hours {
   display: inline-block;
-  width: 200px;
+  lost-column: 2/10;
+
+  @include respond-to(small) {
+    lost-column: 3/12;
+  }
+
+  @include respond-to(medium) {
+    lost-column: 4/18;
+  }
+
 
   .count {
     display: block;
-    font-size: ms(5);
-    line-height: vr(2);
+    font-size: ms(1);
+    line-height: vr(.5);
     text-align: left;
+    color: $color__primary--alt;
   }
   .title {
     display: block;
     text-align: left;
+    color: $color__primary;
+    font-size: ms(-1);
   }
 }
 .minutes {
   display: inline-block;
-  width: 200px;
+  lost-column: 2/10;
+
+  @include respond-to(small) {
+    lost-column: 3/12;
+  }
+
+  @include respond-to(medium) {
+    lost-column: 4/18;
+  }
+
 
   .count {
     display: block;
-    font-size: ms(5);
-    line-height: vr(2);
+    font-size: ms(1);
+    line-height: vr(.5);
     text-align: left;
+    color: $color__primary--alt;
   }
   .title {
     display: block;
     text-align: left;
+    color: $color__primary;
+    font-size: ms(-1);
   }
 }
 .seconds {
   display: inline-block;
-  width: 200px;
+  lost-column: 2/10;
+
+  @include respond-to(small) {
+    lost-column: 3/12;
+  }
+
+  @include respond-to(medium) {
+    lost-column: 4/18;
+  }
+
 
   .count {
     display: block;
-    font-size: ms(5);
-    line-height: vr(2);
+    font-size: ms(1);
+    line-height: vr(.5);
     text-align: left;
+    color: $color__primary--alt;
   }
   .title {
     display: block;
     text-align: left;
+    color: $color__primary;
+    font-size: ms(-1);
   }
 }
