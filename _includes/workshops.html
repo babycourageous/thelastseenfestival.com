@@ -8,16 +8,15 @@
       {% capture wsd %} {{workshop.date}} {{workshop.timeofday}} {% endcapture %}
       {% assign dow = workshop.date | date: "%Y-%m-%d" %}
       {% assign tod = workshop.timeofday %}
-      <time datetime='{{dow}}'>{{workshop.date | date: '%B %d'}}</time>
-      <time>{{tod | date: '%-I:%M %P'}}</time>
+      <div class="workshop__time"><time datetime='{{dow}}'>{{workshop.date | date: '%B %d'}}</time> at <time datetime='{{tod}}'>{{tod | date: '%-I:%M %P'}}</time></div>
       <div class="workshop__description">{{workshop.content}}</div>
-      <p>Instructor:</p>
-      <ul>
+      <dl class="workshop__teachers">
+        <dt>Instructor:</dt>
         {% for id in workshop.instructor %}
-          {% assign teacher = site.performers | where: "pid", id.id | first %}
-          <li><a class="performer__link" href="{{teacher.url}}">{{teacher.name}}</a></li>
+        {% assign teacher = site.performers | where: "pid", id.id | first %}
+        <dd><a class="workshop__link" href="{{teacher.url}}">{{teacher.name}}</a></dd>
         {% endfor %}
-      </ul>
+      </dl>
     </div>
     {% endfor %}
   </div>
