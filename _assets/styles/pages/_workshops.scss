@@ -1,7 +1,10 @@
 .workshops {
 
   @extend %section-padding;
-  @extend %container;
+
+  &__container {
+    @extend %container;
+  }
 
   &__workshop {
     margin-bottom: vr(1.5);
