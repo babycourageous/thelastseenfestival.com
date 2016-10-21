@@ -1,0 +1,7 @@
+.location {
+
+  &__blurb {
+    @extend %container;
+    text-align: center;
+  }
+}

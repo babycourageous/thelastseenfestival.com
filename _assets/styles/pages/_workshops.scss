@@ -1,7 +1,10 @@
 .workshops {
 
   @extend %section-padding;
-  @extend %container;
+
+  &__container {
+    @extend %container;
+  }
 
   &__workshop {
     margin-bottom: vr(1.5);
@@ -12,6 +15,10 @@
 
   &__heading {
     @extend %section__heading;
+  }
+
+  &__info {
+    text-align: center;
   }
 
 }
