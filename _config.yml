@@ -15,7 +15,6 @@ collections:
     output: true
   performers:
     output: true
-    permalink: /:path/
   workshops:
     output: false
 
@@ -42,3 +41,4 @@ defaults:
 
 gems:
   - jekyll-seo-tag
+  - jekyll-sitemap
