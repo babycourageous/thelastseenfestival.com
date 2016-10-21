@@ -42,7 +42,3 @@ defaults:
 
 gems:
   - jekyll-seo-tag
-
-#SEO
-facebook:
-  publisher: 1144477082297307
