@@ -23,6 +23,11 @@ defaults:
   -
     scope:
       path: ""
+    values:
+      image: "assets/images/last-seen-festival.png"
+  -
+    scope:
+      path: ""
       type: shows
     values:
       layout: detail
@@ -41,4 +46,3 @@ gems:
 #SEO
 facebook:
   publisher: 1144477082297307
-image: /assets/images/last-seen-festival.png
