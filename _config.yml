@@ -42,3 +42,4 @@ defaults:
 
 gems:
   - jekyll-seo-tag
+  - jekyll-sitemap
