@@ -2,6 +2,8 @@ url: "http://thelastseenfestival.com" # the base hostname & protocol for your si
 baseurl: "/" # the subpath of your site, e.g. /blog/
 
 title: The Last Seen Comedy Festival
+description: A festival of provocative and original comedy that captures a sense of eccentricity, unconventional style, and irreverent behavior.
+
 exclude: ["_assets", "gulp", ".gitignore", "gulpfile.js", "package.json", "node_modules", "README.md"]
 keep_files: ["assets"]
 
