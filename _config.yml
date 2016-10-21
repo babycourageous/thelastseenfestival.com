@@ -32,3 +32,11 @@ defaults:
     values:
       layout: detail
       image_path: "assets/images/performers/"
+
+gems:
+  - jekyll-seo-tag
+
+#SEO
+facebook:
+  publisher: 1144477082297307
+image: /assets/images/last-seen-festival.png
