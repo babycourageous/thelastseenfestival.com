@@ -17,6 +17,10 @@
     @extend %section__heading;
   }
 
+  &__info {
+    text-align: center;
+  }
+
 }
 .workshop {
 
