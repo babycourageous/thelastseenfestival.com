@@ -8,5 +8,6 @@
 
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXu7vUqT900bOlBAFLTUedjWQQg1tHHxI"></script>
   <script src="{{site.baseurl}}assets/scripts.min.js"></script>
+  {% if jekyll.environment == 'production' %}{% include google-analytics.html %}{% endif %}
 </body>
 </html>
