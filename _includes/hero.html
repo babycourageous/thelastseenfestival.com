@@ -3,7 +3,7 @@
     <h1 class="hero__heading">{{site.title}}</h1>
     <p class="hero__dates">{{site.data.info.when.from | date: '%B %-d'}} - {{site.data.info.when.to | date: '%-d, %Y'}}</p>
     <div class="hero__buttons">
-      <a class="button hero__button">Tickets Coming Soon</a>
+      <a href="{{site.data.info.about.tickets.passes}}" target="_blank" class="button hero__button">Festival Passes</a>
     </div>
     <div id="hero-countdown" data-countdown="{{site.data.info.when.from | date: '%B %d, %Y 00:00:00'}}" class="hero__countdown countdown"></div>
   </div>
