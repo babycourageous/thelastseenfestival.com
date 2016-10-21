@@ -15,7 +15,6 @@ collections:
     output: true
   performers:
     output: true
-    permalink: /:path/
   workshops:
     output: false
 
