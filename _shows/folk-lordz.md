@@ -9,9 +9,12 @@ Braiding together high-octane improv comedy with folk storytelling, Rapid Fire T
 
 __The Recipe:__
 
-1. Take one part Cree-Blackfoot war story from the Indigenous, oral history.
-2. Add one part Jewish fool’s tale inspired by Yiddish literature.
+1. Take one part Cree myth from the Indigenous oral tradition.
+2. Add one part Russian character drama inspired by the writing of Anton Chekhov.
 3. Stir in one part brand new genre – chosen by the audience at each show!
-4. Bake for 60 minutes in a sweaty Fringe venue to create a fast, furious, and folksy improv show like you’ve never seen before!
+4. Bake for 60 minutes to create a fast, physical, and folksy improv show like you’ve never seen before!
 
-*Folk Lordz* have been featured at the Vancouver International Improv Festival, Philladelphia’s DuoFest, Winnipeg’s Gas Station Arts Centre, Toronto’s Combustion Festival, Edmonton’s Thousand Faces Festival of Mythic Art, LitFest, Toronto, Winnipeg and Edmonton Fringe Festivals, and headlined numerous CHiMPROV shows at Rapid Fire Theatre.
+*Folk Lordz* have been featured at the Vancouver International Improv Festival, Philladelphia’s DuoFest, Toronto’s Combustion Festival, Winnipeg’s Gas Station Arts Centre,  Edmonton’s Thousand Faces Festival of Mythic Art, LitFest, Toronto, Winnipeg and Edmonton Fringe Festivals.
+They are the recipients of two Cultural Diversity in the Arts awards from the Edmonton Arts Council.
+
+__"one of the most interesting, compelling and viscerally thrilling pieces of theatre you’ll see this season"__ - Mooney on Theatre
