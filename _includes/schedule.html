@@ -13,7 +13,8 @@
           {% assign items = group.items | group_by: 'time' | sort:'name' %}
           {% for y in items %}
           <dt class="schedule__time">{{y.name | date: '%-I:%M %P'}}</dt>
-          {% for show in y.items %}
+          {% assign show_sort = y.items | sort:'lineup' %}
+          {% for show in show_sort %}
           <dd class="schedule__show"><a class="schedule__link" href="{{show.url}}">{{show.title}}</a></dd>
           {% endfor %}
           {% endfor %}

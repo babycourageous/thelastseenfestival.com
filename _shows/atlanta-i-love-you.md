@@ -4,6 +4,7 @@ date: '2016-11-19'
 time: '20:00:00'
 image: atlanta-i-love-you.jpg
 city: atlanta
+lineup: 2
 ---
 *Atlanta, I Love You* is an unconventional love letter to the city - based on the smash hit *Toronto, I Love You* from the Toronto Fringe Festival. It is an unscripted comedy about unexpected connections, set against a backdrop of neighborhoods suggested by the audience.
 

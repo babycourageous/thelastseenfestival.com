@@ -4,6 +4,7 @@ date: '2016-11-18'
 time: '20:00:00'
 image: folk-lordz.jpg
 city: edmonton
+lineup: 2
 ---
 Braiding together high-octane improv comedy with folk storytelling, Rapid Fire Theatre’s Todd Houseman and Ben Gorodetsky present *Folk Lordz*!
 
