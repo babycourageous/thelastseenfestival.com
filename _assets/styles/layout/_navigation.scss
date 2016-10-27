@@ -1,14 +1,19 @@
 $navigation__height: 50px;
 
 .header {
+  background-color: $color__primary;
   width: 100%;
   min-height: $navigation__height;
   position: fixed;
   top: 0;
   left: 0;
-  padding: 50px 0;
+  padding: 20px 0;
   z-index: 1000;
   transition: background .5s ease-in-out, padding .5s ease-in-out;
+  @include respond-to(medium) {
+    background-color: transparent;
+    padding: 50px 0;
+  }
 
   &--collapse {
     background-color: $color__primary;
