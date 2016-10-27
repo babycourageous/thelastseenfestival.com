@@ -84,8 +84,11 @@ $navigation__height: 50px;
     padding: vr(.5);
     text-decoration: none;
     text-transform: uppercase;
-    color: $color__primary--alt;
+    color: #fff;
     transition: color .5s ease-in-out;
+    @include respond-to(medium) {
+      color: $color__primary--alt;
+    }
 
     .header--collapse & {
       color: white;
