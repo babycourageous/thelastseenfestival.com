@@ -17,7 +17,6 @@ $navigation__height: 50px;
 }
 
 .nav {
-
   display: none;
 
   @include respond-to(medium) {
