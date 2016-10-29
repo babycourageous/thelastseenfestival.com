@@ -1,4 +1,5 @@
 ---
+sid: atl
 title: Atlanta, I Love You
 date: '2016-11-19'
 time: '20:00:00'

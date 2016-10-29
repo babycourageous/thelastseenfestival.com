@@ -1,4 +1,5 @@
 ---
+sid: corn
 title: Cornbaby Comedy
 date: '2016-11-17'
 time: '22:00:00'
