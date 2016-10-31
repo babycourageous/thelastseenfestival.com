@@ -1,7 +1,7 @@
 ---
 pid: shol
 name: Sam Holtzman
-image: tba
+image: sam-holtzman.jpg
 city: Atlanta
 sid: tipsy
 ---

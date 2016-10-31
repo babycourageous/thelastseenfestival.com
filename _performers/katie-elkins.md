@@ -1,7 +1,7 @@
 ---
 pid: kelk
 name: Katie Elkins
-image: tba
+image: katie-elkins.jpg
 city: Atlanta
 sid: tipsy
 ---

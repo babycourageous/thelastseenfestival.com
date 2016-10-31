@@ -1,7 +1,7 @@
 ---
 pid: lsch
 name: Lauren Schmuck
-image: tba
+image: lauren-schmuck.jpg
 city: Atlanta
 sid: tipsy
 ---

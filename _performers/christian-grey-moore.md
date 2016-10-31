@@ -1,7 +1,7 @@
 ---
 pid: cmoo
 name: Christian Grey Moore
-image: tba
+image: christian-grey-moore.jpg
 city: Atlanta
 sid: tipsy
 ---

@@ -1,7 +1,7 @@
 ---
 pid: mspu
 name: Mark Spurlock
-image: tba
+image: mark-spurlock.jpg
 city: Atlanta
 sid: tipsy
 ---

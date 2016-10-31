@@ -1,7 +1,7 @@
 ---
 pid: cmay
 name: Chris Mayers
-image: tba
+image: chris-mayers.jpg
 city: Atlanta
 sid: tipsy
 ---
