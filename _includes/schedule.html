@@ -15,7 +15,7 @@
           <dt><span class="schedule__time">{{y.name | date: '%-I:%M %P'}}</span><a class="schedule__ticket" href="{{y.items[0].ticket}}" target="_blank">{% include svg.html class="schedule__icon" icon="ticket" %}Buy Tickets</a></dt>
           {% assign show_sort = y.items | sort:'lineup' %}
           {% for show in show_sort %}
-          <dd class="schedule__show"><a class="schedule__link" href="{{show.url}}">{{show.title}}</a></dd>
+          <dd class="schedule__show">{{show.title}}</dd>
           {% endfor %}
           {% endfor %}
         </dl>
