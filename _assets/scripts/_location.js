@@ -9,6 +9,7 @@ function googleMap() {
     center: new google.maps.LatLng(33.793404,-84.4051962),
     scrollwheel: false,
     zoom: 15,
+    draggable: false,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     styles: [{
       featureType: "all",
@@ -25,7 +26,7 @@ function googleMap() {
     map: map
   });
   var infowindow = new google.maps.InfoWindow({
-    content: "<b>Highwire Comedy Co.</b><br/>451 Bishop St NW<br/> Atlanta"
+    content: '<b>Highwire Comedy Co.</b><br/>451 Bishop St NW<br/> Atlanta<br><br><a class="location__link" href="https://www.google.com/maps/dir//Highwire+Comedy+Co.+Bishop+Street+Northwest+Atlanta+GA" target="_blank"]>Get Directions</a>'
   });
   google.maps.event.addListener(marker, "click", function() {
     infowindow.open(map, marker)
