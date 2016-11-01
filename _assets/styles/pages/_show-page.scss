@@ -1,0 +1,58 @@
+.show-page {
+
+  border-top: solid em(10) $color__gray;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &__container {
+    @extend %container;
+    flex: 1;
+  }
+
+  &__heading {
+    text-transform: uppercase;
+    font-size: ms(2);
+    color: $color__gray--dark;
+    text-align: center;
+    margin-top: vr(1);
+    margin-bottom: 0;
+  }
+
+  &__city {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: ms(-1);
+    margin-top: -15px;
+    font-family: $font__family--base-sans;
+  }
+
+  &__detail {
+  }
+
+  &__image {
+    padding: 2px;
+    border: 1px solid $color__gray;
+    @include respond-to(medium) {
+        lost-column: 4/6;
+        lost-move: 1/6;
+    }
+  }
+
+  &__content {
+    @include respond-to(medium) {
+      clear: both;
+      lost-column: 4/6;
+      lost-move: 1/6;
+    }
+  }
+
+  &__tickets {
+    @include respond-to(medium) {
+      clear: both;
+      text-align: center;
+    }
+  }
+
+}

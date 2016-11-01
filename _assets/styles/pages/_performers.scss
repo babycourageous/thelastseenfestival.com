@@ -1,0 +1,40 @@
+.performers {
+  @extend %section-padding;
+  @extend %container;
+
+  &__heading {
+    @extend %section__heading;
+  }
+
+  &__container {
+  }
+}
+.performer {
+  lost-column: 1/2;
+
+  @include respond-to(medium) {
+    lost-column: 1/3;
+  }
+  @include respond-to(large) {
+    lost-column: 1/5;
+  }
+
+
+  &__city {
+    font-size: ms(-1);
+    line-height: 1;
+    margin-bottom: vr(.25);
+  }
+
+  &__show {
+    border-left: 2px solid $color__primary;
+    //font-size: ms();
+    line-height: 1;
+    padding-left: .5em;
+  }
+
+
+  &__photo {
+  }
+
+}

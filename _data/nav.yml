@@ -4,9 +4,9 @@
   url: '#schedule'
 - name: shows
   url: '#shows'
-- name: performers
-  url: '#performers'
 - name: workshops
   url: '#workshops'
+- name: performers
+  url: '#performers'
 - name: location
   url: '#location'

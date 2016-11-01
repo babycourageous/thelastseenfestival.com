@@ -4,4 +4,9 @@
     @extend %container;
     text-align: center;
   }
+
+  &__link {
+    font-weight: 700;
+    color: $color__primary;
+  }
 }

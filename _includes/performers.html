@@ -1,7 +1,13 @@
 <section id="performers" class="performers">
-  <h2>Performers</h2>
-  <h3>Kayla Lorette</h3>
-  <p>
-    Kayla Lorette is a comedian living in Toronto, Ontario. She has toured extensively through Europe and North America with her comedy duo, The Sufferettes. She has won several Canadian Comedy Awards, including Best Female Improviser, Best Improv Troupe and Best Female Performance in a Webseries for her role in Space Riders: Division Earth. Most recently, her short film She Stoops to Conquer, (which she co-wrote and starred in), premier at the Toronto International Film Festival and won the Canadian Screen Award for Best Live Action Short Drama.
-  </p>
+<h2 class="performers__heading">Performers</h2>
+<div id="performer-slick" class="performer__container">
+  {% for performer in site.performers %}
+  <div class="performer">
+    <img src="{{site.baseurl}}{{performer.image_path}}{{performer.image}}" alt="" class="performer__photo">
+    <h4 class="performer__name">{{performer.name}}</h4>
+    {% assign show = site.shows | where: "sid", performer.sid | first %}
+    <p class="performer__show">{{show.title}} <span class="performer__city">({{performer.city}})</span></p>
+  </div>
+  {% endfor %}
+</div>
 </section>

@@ -1,9 +1,14 @@
 ---
+sid: notes
 title: Network Notes
 date: '2016-11-19'
 time: '22:00:00'
+ticket: https://www-highwirecomedy-com.seatengine.com/shows/46439
 image: "network-notes.jpg"
 city: toronto
+performers:
+  - id: klor
+  - id: eros
 ---
 We all believe in movie magic, but is it technically "magic"? So much hard work goes into the creation of a film, but who is really making it all happen? Who should we be thanking for all our favourite Hollywood moments?
 

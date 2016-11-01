@@ -1,7 +1,9 @@
 ---
+sid: atl
 title: Atlanta, I Love You
 date: '2016-11-19'
 time: '20:00:00'
+ticket: https://www-highwirecomedy-com.seatengine.com/shows/46419
 image: atlanta-i-love-you.jpg
 city: atlanta
 lineup: 2

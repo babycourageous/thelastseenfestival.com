@@ -2,9 +2,14 @@
 <html lang="en">
 {% include head.html %}
 <body>
+  <!-- include svg sprite -->
+	<span style="display:none;">{% include symbol/svg/sprite.symbol.svg %}</span>
   {% include header.html %}
 
   {{content}}
+
+	{% include footer.html %}
+
 
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXu7vUqT900bOlBAFLTUedjWQQg1tHHxI"></script>
   <script src="{{site.baseurl}}assets/scripts.min.js"></script>
