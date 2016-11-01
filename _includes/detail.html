@@ -1,0 +1,10 @@
+{% assign show = site.shows | where:"sid", include.sid %}
+<div id="{{include.sid}}" class="detail mfp-hide">
+  <div class="detail__container">
+    <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+    <div class="detail__content">
+      <h2>{{show.title}}</h2>
+      {{show.content}}
+    </div>
+  </div>
+</div>
