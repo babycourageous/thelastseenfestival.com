@@ -17,7 +17,9 @@
 
   &__heading {
     font-weight: 400;
-    text-indent: -9999px;
+    text-indent: 100%; // LEAVE WINDOW
+    white-space: nowrap; // DON'T RETURN
+    overflow: hidden; // NO REALLY DON'T RETURN
     background: url('/assets/images/ls16title.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,7 +33,7 @@
   }
 
   &__button {
-    
+
   }
 
   &__countdown {
