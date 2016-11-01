@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body class="show-page">
+
+<div class="show-page__container">
+  <h1 class="show-page__heading">{{page.title}}</h2>
+  <div class="show-page__detail">
+    <img class="show-page__image" src="{{site.baseurl}}{{page.image_path}}{{page.image}}" alt="{{page.title}}">
+    <div class="show-page__content">
+      {{page.content}}
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}
+
+</body>
+</html>

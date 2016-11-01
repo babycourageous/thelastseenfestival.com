@@ -1,0 +1,38 @@
+.show-page {
+
+  border-top: solid em(10) $color__gray;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &__container {
+    flex: 1;
+  }
+
+  &__heading {
+    text-transform: uppercase;
+    font-size: ms(2);
+    color: $color__gray--dark;
+    text-align: center;
+    margin-top: vr(1);
+  }
+
+  &__detail {
+    lost-center: 75% em(10);
+  }
+
+  &__image {
+    padding: 2px;
+    border: 1px solid $color__gray;
+    @include respond-to(medium) {
+        lost-column: 2/5;
+    }
+  }
+
+  &__content {
+    @include respond-to(medium) {
+        lost-column: 3/5;
+    }
+  }
+
+}

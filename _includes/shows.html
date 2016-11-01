@@ -4,9 +4,12 @@
     {% for show in site.shows %}
     <div class="show">
       <img class="show__image" alt="" src="{{site.baseurl}}{{show.image_path}}{{show.image}}">
-      <a class="show__link" href="{{show.url}}"><div class="show__info">
+      <a class="show__link" href="{{show.url}}" data-mfp-src="#{{show.sid}}" ><div class="show__info">
         <span class="show__title">{{show.title}}</span>
       </div></a>
+
+      {% include detail.html sid=show.sid %}
+
     </div>
     {% endfor %}
   </div>
