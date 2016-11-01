@@ -79,7 +79,30 @@
     font-family: $font__family--base-sans;
     text-transform: uppercase;
     margin-top: vr(.5);
+  }
 
+  &__icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -2px;
+    left: 0;
+    /* target all icons with attribute wildcard selector that searches for "begins with..." */
+    [class^="schedule__icon-"] {
+      width: 20px;
+      height: 20px;
+      fill: $color__primary;
+    }
+  }
+  &__ticket {
+    color: $color__primary;
+    font-weight: 700;
+    font-family: $font__family--base-sans;
+    font-size: ms(-1);
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 25px;
+    margin-left: 5px;
   }
 
   &__show {

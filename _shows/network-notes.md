@@ -3,6 +3,7 @@ sid: notes
 title: Network Notes
 date: '2016-11-19'
 time: '22:00:00'
+ticket: https://www-highwirecomedy-com.seatengine.com/shows/46439
 image: "network-notes.jpg"
 city: toronto
 performers:
