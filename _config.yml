@@ -29,7 +29,7 @@ defaults:
       path: ""
       type: shows
     values:
-      layout: detail
+      layout: show
       image_path: "assets/images/shows/"
   -
     scope:
