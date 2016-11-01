@@ -53,7 +53,8 @@ config.styles = {
     config.nodedir + '/breakpoint-sass/stylesheets',
     config.nodedir + '/typi/scss',
     config.nodedir + '/modularscale-sass/stylesheets',
-    config.nodedir + '/magnific-popup/src/css'
+    config.nodedir + '/magnific-popup/src/css',
+    config.nodedir + '/slick-carousel/slick',
   ],
 
 	autoprefixer: {
