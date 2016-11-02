@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
-<body>
+<body{% if layout.bodyclass %} class="{{layout.bodyclass}}"{% endif %}>
   <!-- include svg sprite -->
 	<span style="display:none;">{% include symbol/svg/sprite.symbol.svg %}</span>
   {% include header.html %}
