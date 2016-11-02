@@ -30,6 +30,12 @@ $(document).ready(function() {
   ss.init({offset:50});
 
   $(window).load(function() {
+    /* Check to see where page is for header BG */
+    if ($(".header").offset().top > 50) {
+        $(".header").addClass("header--collapse")
+    } else {
+        $(".header").removeClass("header--collapse")
+    }
     $(window).scroll(function() {
         if ($(".header").offset().top > 50) {
             $(".header").addClass("header--collapse")
