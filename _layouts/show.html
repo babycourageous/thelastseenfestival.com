@@ -1,24 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-{% include head.html %}
-<body class="show-page">
-  <!-- include svg sprite -->
-  <span style="display:none;">{% include symbol/svg/sprite.symbol.svg %}</span>
-
-  <div class="show-page__container">
-    <h1 class="show-page__heading">{{page.title}}</h1>
-    <span class="show-page__city">({{page.city}})</span>
-    <div class="show-page__detail">
-      <img class="show-page__image" src="{{site.baseurl}}{{page.image_path}}{{page.image}}" alt="{{page.title}}">
-      <div class="show-page__content">
-        {{page.content}}
-      </div>
-      <p class="show-page__tickets">{{page.title}} performs <strong>{{page.date | date: '%A %B %d'}}</strong> at <strong>{{page.time | date: '%-I:%M %P'}}</strong><a class="schedule__ticket" href="{{page.ticket}}" target="_blank">{% include svg.html class="schedule__icon" icon="ticket" %}Buy Tickets</a></p>
+---
+layout: default
+bodyclass: show-page
+---
+<div class="show-page__container">
+  <h1 class="show-page__heading">{{page.title}}</h1>
+  <span class="show-page__city">({{page.city}})</span>
+  <div class="show-page__detail">
+    <img class="show-page__image" src="{{site.baseurl}}{{page.image_path}}{{page.image}}" alt="{{page.title}}">
+    <div class="show-page__content">
+      {{page.content}}
     </div>
-
+    <p class="show-page__when">{{page.title}} performs <strong>{{page.date | date: '%A %B %d'}}</strong> at <strong>{{page.time | date: '%-I:%M %P'}}</strong></p>
+    <p class="show-page__tickets"><a class="schedule__ticket" href="{{page.ticket}}" target="_blank">{% include svg.html class="schedule__icon" icon="ticket" %}Buy Tickets</a></p>
   </div>
 
-  {% include footer.html %}
+</div>
 
 </body>
 </html>
