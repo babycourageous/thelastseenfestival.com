@@ -1,6 +1,5 @@
 .show-page {
 
-  border-top: solid em(10) $color__gray;
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -12,7 +11,7 @@
 
   &__heading {
     text-transform: uppercase;
-    font-size: ms(2);
+    font-size: ms(1);
     color: $color__gray--dark;
     text-align: center;
     margin-top: vr(1);
@@ -42,9 +41,17 @@
 
   &__content {
     @include respond-to(medium) {
+      text-align: center;
       clear: both;
       lost-column: 4/6;
       lost-move: 1/6;
+    }
+  }
+
+  &__when {
+    @include respond-to(medium) {
+      clear: both;
+      text-align: center;
     }
   }
 
