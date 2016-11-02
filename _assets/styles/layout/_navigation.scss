@@ -19,6 +19,13 @@ $navigation__height: 50px;
     background-color: $color__primary;
     padding: 20px 0;
   }
+
+  // detail page adjustment
+  body.show-page & {
+    padding: 0;
+    background-color: $color__primary--alt;
+    position: relative;
+  }
 }
 
 .nav {
@@ -91,6 +98,10 @@ $navigation__height: 50px;
     }
 
     .header--collapse & {
+      color: white;
+    }
+
+    body.show-page & {
       color: white;
     }
 

@@ -24,6 +24,10 @@ $icon-transistion-duration: 0.3s;    // The transition duration
   height: $icon-bar-thickness;
   background: $color__primary;
   border-radius: 4px;
+
+  body.show-page & {
+    background: $color__primary--alt;
+  }
 }
 
 .icon__hamburger::before,
@@ -36,6 +40,10 @@ $icon-transistion-duration: 0.3s;    // The transition duration
   background-color: $color__primary;;
   content: "";
   border-radius: 4px;
+
+  body.show-page & {
+    background-color: $color__primary--alt;
+  }
 
 }
 
