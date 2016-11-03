@@ -4,7 +4,7 @@ title: Dark Side Of The Room
 date: '2016-11-17'
 time: '20:00:00'
 ticket: https://www-highwirecomedy-com.seatengine.com/shows/46414
-image: assets/images/fb-share/dark-side-of-the-room.jpg
+image: assets/images/fb-share/local-sampler.jpg
 show-photo: dsotr.jpg
 city: atlanta
 ---

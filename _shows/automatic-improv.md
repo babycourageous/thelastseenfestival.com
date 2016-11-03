@@ -4,7 +4,7 @@ title: Automatic Improv
 date: '2016-11-17'
 time: '20:00:00'
 ticket: https://www-highwirecomedy-com.seatengine.com/shows/46414
-image: assets/images/fb-share/automatic-improv.jpg
+image: assets/images/fb-share/local-sampler.jpg
 show-photo: automatic-improv.png
 city: atlanta
 lineup: 2
