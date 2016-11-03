@@ -1,6 +1,6 @@
 {
-  "name": "app",
-  "version": "2.7",
+  "name": "The Last Seen Festival",
+  "version": "2.8",
   "description": "",
   "main": "index.js",
   "scripts": {
