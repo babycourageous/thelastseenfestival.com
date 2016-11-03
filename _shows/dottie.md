@@ -4,6 +4,7 @@ title: dottie
 date: '2016-11-17'
 time: '22:00:00'
 ticket: https://www-highwirecomedy-com.seatengine.com/shows/46410
+image: assets/images/fb-share/dottie.jpg
 show-photo: dottie.png
 city: atlanta
 ---
