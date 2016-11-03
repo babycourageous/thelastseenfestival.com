@@ -4,7 +4,7 @@ title: Hip Hop Harold
 date: '2016-11-17'
 time: '20:00:00'
 ticket: https://www-highwirecomedy-com.seatengine.com/shows/46414
-image: assets/images/fb-share/local-showcase.jpg
+image: assets/images/fb-share/local-sampler.jpg
 show-photo: hip-hop-harold.png
 city: atlanta
 ---
