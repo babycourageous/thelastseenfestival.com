@@ -4,6 +4,7 @@ title: Folk Lordz
 date: '2016-11-18'
 time: '20:00:00'
 ticket: https://www-highwirecomedy-com.seatengine.com/shows/46415
+image: assets/images/fb-share/folk-lordz.jpg
 show-photo: folk-lordz.jpg
 city: edmonton
 lineup: 2
