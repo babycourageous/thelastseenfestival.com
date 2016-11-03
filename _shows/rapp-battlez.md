@@ -4,6 +4,7 @@ title: "Rapp Battlez: Dirty Zouth"
 date: '2016-11-18'
 time: '22:00:00'
 ticket: https://www-highwirecomedy-com.seatengine.com/shows/46418
+image: assets/images/fb-share/rapp-battlez-dirty-zouth.jpg
 show-photo: "rapp-battlez.png"
 city: atlanta
 ---
