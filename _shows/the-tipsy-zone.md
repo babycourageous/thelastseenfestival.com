@@ -5,7 +5,10 @@ date: '2016-11-19'
 time: '20:00:00'
 ticket: https://www-highwirecomedy-com.seatengine.com/shows/46419
 show-photo: the-tipsy-zone.jpg
-image: assets/images/fb-share/the-tipsy-zone.jpg
+image:
+  facebook: assets/images/fb-share/the-tipsy-zone.jpg
+  width: 1200
+  height: 628
 city: atlanta
 lineup: 1
 ---
