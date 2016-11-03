@@ -4,7 +4,7 @@ title: The Tipsy Zone
 date: '2016-11-19'
 time: '20:00:00'
 ticket: https://www-highwirecomedy-com.seatengine.com/shows/46419
-image: the-tipsy-zone.jpg
+show-photo: the-tipsy-zone.jpg
 city: atlanta
 lineup: 1
 ---
