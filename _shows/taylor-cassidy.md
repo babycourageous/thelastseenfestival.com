@@ -4,7 +4,10 @@ title: Taylor and Cassidy
 date: '2016-11-18'
 time: '20:00:00'
 ticket: https://www-highwirecomedy-com.seatengine.com/shows/46415
-image: assets/images/fb-share/taylor-and-cassidy.jpg
+image:
+  facebook: assets/images/fb-share/taylor-and-cassidy.jpg
+  width: 1200
+  height: 628
 show-photo: taylor-&-cassidy.jpg
 city: atlanta
 lineup: 1

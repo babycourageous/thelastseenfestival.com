@@ -4,7 +4,10 @@ title: Cornbaby Comedy
 date: '2016-11-17'
 time: '22:00:00'
 ticket: https://www-highwirecomedy-com.seatengine.com/shows/46410
-image: assets/images/fb-share/cornbaby-comedy.jpg
+image:
+  facebook: assets/images/fb-share/cornbaby-comedy.jpg
+  width: 1200
+  height: 628
 show-photo: cornbaby-comedy.png
 city: atlanta
 ---
