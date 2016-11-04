@@ -1,0 +1,17 @@
+.sponsors {
+  background: $color__gray--dark;
+  @extend %section-padding;
+
+  &__heading {
+    @extend %section__heading;
+    color: $color__gray--light;
+  }
+
+  &__container {
+    lost-utility: clearfix;
+  }
+
+}
+.sponsor {
+  lost-column: 1/4;
+}
