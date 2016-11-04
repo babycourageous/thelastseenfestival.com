@@ -1,6 +1,7 @@
 ---
 sid: tipsy
 title: The Tipsy Zone
+description: The Tipsy Zone is a fully improvised, never before seen episode of the cult classic TV show The Twilight Zone but with a twist - our performers get more and more tipsy as the show goes on.
 date: '2016-11-19'
 time: '20:00:00'
 ticket: https://www-highwirecomedy-com.seatengine.com/shows/46419

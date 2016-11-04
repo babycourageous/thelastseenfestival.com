@@ -1,6 +1,7 @@
 ---
 sid: notes
 title: Network Notes
+description: Network Notes shows us what really happens when studio executives have to give harsh and likely nonsensical notes on improvised scenes from nonexistent movies.
 date: '2016-11-19'
 time: '22:00:00'
 ticket: https://www-highwirecomedy-com.seatengine.com/shows/46439
@@ -14,7 +15,7 @@ performers:
   - id: klor
   - id: eros
 ---
-We all believe in movie magic, but is it technically "magic"? So much hard work goes into the creation of a film, but who is really making it all happen? Who should we be thanking for all our favourite Hollywood moments?
+We all believe in movie magic, but is it technically "magic"? So much hard work goes into the creation of a film, but who is really making it all happen? Who should we be thanking for all our favorite Hollywood moments?
 
 That's right. The studio executives!
 
