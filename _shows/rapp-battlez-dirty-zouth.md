@@ -11,4 +11,4 @@ image:
 show-photo: "rapp-battlez.png"
 city: atlanta
 ---
-*Rapp Battlez Dirty Zouth* is a hip hop comedy throwdown created by the Rivas Brothers (Toronto) where comedians square off in one-on-one rap battles.
+*Rapp Battlez Dirty Zouth* is a hip hop comedy throwdown created by the Rivas Brothers (Toronto) where comedians portray characters that square off in one-on-one rap battles.
