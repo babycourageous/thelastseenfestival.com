@@ -1,6 +1,7 @@
 ---
 sid: tc
 title: Taylor and Cassidy
+description: Taylor Bennett and Cassidy Russell portray ordinary life that is closely observed in an improvised setting.
 date: '2016-11-18'
 time: '20:00:00'
 ticket: https://www-highwirecomedy-com.seatengine.com/shows/46415

@@ -2,10 +2,9 @@ url: "http://thelastseenfestival.com" # the base hostname & protocol for your si
 baseurl: "/" # the subpath of your site, e.g. /blog/
 
 title: The Last Seen Comedy Festival
-description: A festival of provocative and original comedy that captures a sense of eccentricity, unconventional style, and irreverent behavior.
+description: The Last Seen Festival is a festival of provocative and original comedy that captures a sense of eccentricity, unconventional style, and irreverent behavior.
 logo: assets/images/logo.png
 social:
-  name: The Last Seen Festival
   links:
     - https://www.facebook.com/thelastseenfestival
 

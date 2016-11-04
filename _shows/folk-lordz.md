@@ -1,6 +1,7 @@
 ---
 sid: lordz
 title: Folk Lordz
+description: Folk Lordz is high-octane improv comedy with folk storytelling from Edmonton's Rapid Fire Theatre. It's 1 part Cree myth, 1 part Russian character drama, 1 part audience genre.
 date: '2016-11-18'
 time: '20:00:00'
 ticket: https://www-highwirecomedy-com.seatengine.com/shows/46415

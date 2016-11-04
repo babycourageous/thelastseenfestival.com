@@ -3,7 +3,7 @@
 <div id="performer-slick" class="performer__container">
   {% for performer in site.performers %}
   <div class="performer">
-    <img src="{{site.baseurl}}{{performer.image_path}}{{performer.image}}" alt="" class="performer__photo">
+    <img src="{{site.baseurl}}{{performer.image_path}}{{performer.image}}" alt="Performer photo for {{performer.name }}" title="{{performer.name}}" class="performer__photo">
     <h4 class="performer__name">{{performer.name}}</h4>
     {% assign show = site.shows | where: "sid", performer.sid | first %}
     <p class="performer__show">{{show.title}} <span class="performer__city">({{performer.city}})</span></p>

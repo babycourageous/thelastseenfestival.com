@@ -1,7 +1,10 @@
-<h2 class="footer__heading">Sponsors</h2>
-<div class="footer__sponsors">
-  <p class="footer__sponsor"><img src="/assets/images/sponsors/ammazza.png" alt=""></p>
-  <p class="footer__sponsor"><img src="/assets/images/sponsors/thali.png" alt=""></p>
-  <p class="footer__sponsor"><img src="/assets/images/sponsors/highwire.png" alt=""></p>
-  <p class="footer__sponsor"><img src="/assets/images/sponsors/getscene.png" alt=""></p>
-</div>
+<section id="sponsors" class="sponsors">
+  <h2 class="sponsors__heading">Sponsors</h2>
+  <div class="sponsors__container">
+    <ul class="sponsors__list">
+      {% for sponsor in site.data.info.sponsors %}
+      <li class="sponsor"><a href="{{sponsor.link}}" class="sponsor__link" target="_blank" title="{{sponsor.name}}" alt="Sponsor logo for {{sponsor.name}}"><img src="{{site.baseurl}}assets/images/sponsors/{{sponsor.image}}"></a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
