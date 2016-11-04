@@ -3,7 +3,7 @@
   <div class="shows__container">
     {% for show in site.shows %}
     <div class="show">
-      <img class="show__image" alt="" src="{{site.baseurl}}{{show.image_path}}{{show.show-photo}}">
+      <img alt="Show photo for {{show.title}}" title="{{show.title}}" class="show__image" alt="" src="{{site.baseurl}}{{show.image_path}}{{show.show-photo}}">
       <a class="show__link" href="{{show.url}}" data-mfp-src="#{{show.sid}}" ><div class="show__info">
         <span class="show__title">{{show.title}}</span>
       </div></a>

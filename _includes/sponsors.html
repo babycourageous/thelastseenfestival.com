@@ -3,7 +3,7 @@
   <div class="sponsors__container">
     <ul class="sponsors__list">
       {% for sponsor in site.data.info.sponsors %}
-      <li class="sponsor"><a href="{{sponsor.link}}" class="sponsor__link" target="_blank" title="{{sponsor.name}}" alt="{{sponsor.name}}"><img src="{{site.baseurl}}assets/images/sponsors/{{sponsor.image}}"></a></li>
+      <li class="sponsor"><a href="{{sponsor.link}}" class="sponsor__link" target="_blank" title="{{sponsor.name}}" alt="Sponsor logo for {{sponsor.name}}"><img src="{{site.baseurl}}assets/images/sponsors/{{sponsor.image}}"></a></li>
       {% endfor %}
     </ul>
   </div>
