@@ -8,10 +8,14 @@
   }
 
   &__container {
-    lost-utility: clearfix;
+    @extend %container;
   }
 
 }
 .sponsor {
-  lost-column: 1/4;
+  lost-column: 1/2;
+
+  @include respond-to(medium) {
+    lost-column: 1/4;
+  }
 }
