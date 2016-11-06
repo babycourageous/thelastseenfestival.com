@@ -33,30 +33,31 @@
   &__image {
     padding: 2px;
     border: 1px solid $color__gray;
-    @include respond-to(medium) {
-        lost-column: 4/6;
-        lost-move: 1/6;
+    @include respond-to(small) {
+        lost-column: 2/6;
+        lost-move: 2/6;
     }
   }
 
   &__content {
-    @include respond-to(medium) {
+    @include respond-to(small) {
       text-align: center;
       clear: both;
       lost-column: 4/6;
       lost-move: 1/6;
     }
+    ol { text-align: left; }
   }
 
   &__when {
-    @include respond-to(medium) {
+    @include respond-to(small) {
       clear: both;
       text-align: center;
     }
   }
 
   &__tickets {
-    @include respond-to(medium) {
+    @include respond-to(small) {
       clear: both;
       text-align: center;
     }
