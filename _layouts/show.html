@@ -6,6 +6,7 @@ bodyclass: show-page
   <h1 class="show-page__heading">{{page.title}}</h1>
   <span class="show-page__city">({{page.city}})</span>
   <div class="show-page__detail">
+    <p class="show-page__when"><strong>{{page.date | date: '%A %B %d'}}</strong> at <strong>{{page.time | date: '%-I:%M %P'}}</strong><span class="show-page__tickets"><a class="schedule__ticket" href="{{page.ticket}}" target="_blank">{% include svg.html class="schedule__icon" icon="ticket" %}Buy Tickets</a></span></p>
     <img class="show-page__image" src="{{site.baseurl}}{{page.image_path}}{{page.show-photo}}" title="{{page.title}}" alt="Photo for {{page.title}}">
     <div class="show-page__content">
       {{page.content}}
