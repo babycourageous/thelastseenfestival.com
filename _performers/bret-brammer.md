@@ -5,4 +5,4 @@ image: bret-brammer.jpg
 city: Atlanta
 sid: tipsy
 ---
-Raised by wolves in the Mongolian wilderness and now technically an actor or whatever, Chris Mayers stumbled into improv like a drunken elephant, except without all the alcohol. Or tusks. Okay, mostly he just loves peanuts. He has studied acting and improv at The Atlantic Theater in New York, Second City in Chicago, SCAD in Savannah, and Dad’s Garage and Highwire in Atlanta. Past stage productions include The Sleepy Hollow Experience; Shakespeare, Unscripted; The Last Days of Judas Iscariot; and Almost, Maine. He was a national finalist at the College Improv Festival in Chicago and now regularly contributes as a writer and performer for sketch and improv at Highwire Comedy Co.
+Bret Brammer has a lot of passions: carpentry, improv, the hit ABC drama Lost. Having been performing for over 8 years, he's excited to be playing this weekend with The Tipsy Zone, but you can also find him performing Shakespeare Unscripted, #Ghostcode, and the upcoming Holiday Sketch show, all at Highwire. If you're free, visit him in the booth during the festival. He's a real hoot and a half hoot.

@@ -1,7 +1,7 @@
 ---
 pid: shol
-name: Sam Holtzman
-image: sam-holtzman.jpg
+name: Sam Holtzen
+image: sam-holtzen.jpg
 city: Atlanta
 sid: tipsy
 ---
