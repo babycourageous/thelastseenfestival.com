@@ -1,7 +1,7 @@
 ---
 pid: fboy
-name: Freddie Boyd
-image: freddie-boyd.jpg
+name: Freddy Boyd
+image: freddy-boyd.jpg
 city: Atlanta
 sid: tipsy
 ---
