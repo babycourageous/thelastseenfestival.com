@@ -3,6 +3,9 @@ html { height: 100%; }
 body {
 }
 
+a {
+  color: $color__primary;
+}
 img {
   display: block;
   max-width: 100%;
